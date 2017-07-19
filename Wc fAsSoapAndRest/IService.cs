@@ -25,6 +25,7 @@ namespace Wc_fAsSoapAndRest
     [DataContract]
     public class Employee
     {
+        //Add data members
         [DataMember]
         public int EmpNo { get; set; }
         [DataMember]
